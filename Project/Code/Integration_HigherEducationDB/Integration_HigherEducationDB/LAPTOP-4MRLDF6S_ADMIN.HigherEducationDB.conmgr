@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LAPTOP-4MRLDF6S_ADMIN.HigherEducationDB"
+  DTS:DTSID="{920A6760-AA9E-47B6-8108-4D41DEFC437D}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=LAPTOP-4MRLDF6S\ADMIN;Initial Catalog=HigherEducationDB;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Integration_HigherEducationDB-{920A6760-AA9E-47B6-8108-4D41DEFC437D}LAPTOP-4MRLDF6S\ADMIN.HigherEducationDB;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

@@ -1,0 +1,85 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f84f5b9c-8f4a-4fcf-b13b-0a6b71a84765" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Higher Education DW</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Fact Student Assessment</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="c8a81165-6dff-4c6f-976f-4b6d7efd8a5e">
+          <ID>Fact Student Assessment</ID>
+          <Name>Fact Student Assessment</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ad3aebe0-7d1f-47f0-a5b1-b22808acde85">
+            <DataSourceViewID>Higher Education DW</DataSourceViewID>
+            <TableID>dbo_FactStudentAssessment</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Student Courses</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="4d5c19ff-7b42-4597-9a5e-00ddd4dfa366">
+          <ID>Fact Student Courses</ID>
+          <Name>Fact Student Courses</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6b83894d-01de-44dd-8c87-f481d78c300d">
+            <DataSourceViewID>Higher Education DW</DataSourceViewID>
+            <TableID>dbo_FactStudentCourses</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Student Registration</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="c98c2778-ab52-43e4-b06c-1659f450019c">
+          <ID>Fact Student Registration</ID>
+          <Name>Fact Student Registration</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="107324b1-9fd6-42eb-935b-f227a2641c60">
+            <DataSourceViewID>Higher Education DW</DataSourceViewID>
+            <TableID>dbo_FactStudentRegistration</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Student Vle</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="55c75b91-1ba7-47cf-8c73-ac28150a1a6a">
+          <ID>Fact Student Vle</ID>
+          <Name>Fact Student Vle</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0e0c81e7-cda6-4bde-b640-917d856ccbf5">
+            <DataSourceViewID>Higher Education DW</DataSourceViewID>
+            <TableID>dbo_FactStudentVle</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
